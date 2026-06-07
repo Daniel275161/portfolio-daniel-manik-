@@ -101,6 +101,19 @@ body::before{
     z-index:999;
 
 }
+
+.menu-toggle{
+
+    display:none;
+
+    font-size:2rem;
+
+    cursor:pointer;
+
+    color:white;
+
+}
+
 .hero{
 
     min-height:100vh;
@@ -1056,6 +1069,69 @@ section{
     .about-container{
 
         grid-template-columns:1fr;
+
+    }
+
+}
+@media(max-width:768px){
+
+    .menu-toggle{
+
+        display:block;
+
+    }
+
+    .nav-links{
+
+        position:absolute;
+
+        top:100%;
+
+        left:0;
+
+        width:100%;
+
+        background:#08111f;
+
+        flex-direction:column;
+
+        text-align:center;
+
+        padding:20px 0;
+
+        display:none;
+
+    }
+
+    .nav-links.active{
+
+        display:flex;
+
+    }
+
+    .hero h1{
+
+        font-size:3rem;
+
+    }
+
+    .hero h2{
+
+        font-size:1.5rem;
+
+    }
+
+    .profile-image{
+
+        width:180px;
+
+        height:180px;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
 
     }
 
