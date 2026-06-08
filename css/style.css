@@ -238,9 +238,13 @@ body::before{
 
     text-decoration:none;
 
-    padding:10px 18px;
+    padding:12px 20px;
 
     border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
 
 }
 .github-btn{
@@ -257,6 +261,23 @@ body::before{
     color:black;
 
     font-weight:600;
+
+}
+.github-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 0 20px rgba(255,255,255,.15);
+
+}
+
+.demo-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 0 20px rgba(0,217,255,.4);
 
 }
 .skills-grid{
@@ -1054,7 +1075,6 @@ section{
 }
 
 @keyframes float{
-
     0%,100%{
         transform:translateY(0);
     }
