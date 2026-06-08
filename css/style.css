@@ -1156,3 +1156,17 @@ section{
     }
 
 }
+
+.project-card{
+    position: relative;
+    z-index: 2;
+}
+
+.project-buttons a{
+    position: relative;
+    z-index: 10;
+}
+
+#particles-js{
+    pointer-events: none;
+}
