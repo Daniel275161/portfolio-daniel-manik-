@@ -1170,3 +1170,17 @@ section{
 #particles-js{
     pointer-events: none;
 }
+
+#publications{
+    padding:100px 10%;
+}
+
+#publications .projects-container{
+    display:flex;
+    justify-content:center;
+}
+
+#publications .project-card{
+    max-width:800px;
+    width:100%;
+}
