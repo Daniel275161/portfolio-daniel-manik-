@@ -184,22 +184,32 @@ body::before{
     0 0 30px rgba(0,217,255,.15);
 
 }
-.project-card img{
+.project-card{
 
-    width:100%;
+    background:#0f172a;
 
-    height:220px;
+    border-radius:20px;
 
-    object-fit:contain;
+    overflow:hidden;
 
-    background:#08203a;
+    border:1px solid rgba(255,255,255,.08);
 
-    padding:20px;
+    transition:.3s;
+
+    display:flex;
+
+    flex-direction:column;
 
 }
 .project-content{
 
     padding:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    flex-grow:1;
 
 }
 .tech-stack{
@@ -230,7 +240,7 @@ body::before{
 
     gap:15px;
 
-    margin-top:25px;
+    margin-top:auto;
 
 }
 .github-btn,
