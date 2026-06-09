@@ -154,25 +154,9 @@ const topBtn = document.getElementById("topBtn");
 
 topBtn.addEventListener("click", () => {
 
-    console.log("TOMBOL DIKLIK");
-
     window.scrollTo({
         top: 0,
         behavior: "smooth"
-    });
-
-});
-
-document
-.getElementById("topBtn")
-.addEventListener("click",()=>{
-
-    window.scrollTo({
-
-        top:0,
-
-        behavior:"smooth"
-
     });
 
 });
